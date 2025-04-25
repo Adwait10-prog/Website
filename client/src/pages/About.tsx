@@ -119,7 +119,7 @@ const About = () => {
               Professional Journey
             </h3>
             
-            <div className="relative border-l-2 border-gray-200 dark:border-gray-700 pl-8 pb-2">
+            <div className="relative border-l-2 border-gray-200 dark:border-gray-700 pl-8 pb-2 max-h-[600px] overflow-y-auto pr-4">
               {experiences.map((experience, index) => (
                 <TimelineItem 
                   key={index}
@@ -128,7 +128,7 @@ const About = () => {
                   company={experience.company}
                   description={experience.description}
                   color={experience.color}
-                  delay={index * 0.2}
+                  delay={index * 0.1}
                 />
               ))}
             </div>

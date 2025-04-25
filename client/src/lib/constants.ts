@@ -109,28 +109,67 @@ export const blogPosts = [
     excerpt: "How human-centered design approaches can transform financial services and enhance customer experiences in banking.",
     date: "April 10, 2025",
     readTime: "7 min read",
-    imagePath: "design-thinking"
+    imagePath: "design-thinking",
+    source: "blog",
+    link: "#"
   },
   {
     title: "Global Business Consulting: Lessons from 50+ Countries",
     excerpt: "Key insights and cultural considerations for business consultants working across international boundaries.",
     date: "March 22, 2025",
     readTime: "9 min read",
-    imagePath: "global-business"
+    imagePath: "global-business",
+    source: "blog",
+    link: "#"
   },
   {
     title: "Mentoring Young Entrepreneurs: A Guide for Seasoned Professionals",
     excerpt: "Practical approaches to effective mentorship and nurturing the next generation of business leaders.",
     date: "February 15, 2025",
     readTime: "6 min read",
-    imagePath: "mentoring"
+    imagePath: "mentoring",
+    source: "blog",
+    link: "#"
   },
   {
     title: "Banking Technology Transformation: Past, Present, and Future",
     excerpt: "A retrospective look at 25 years of banking technology evolution and predictions for where the industry is headed.",
     date: "January 30, 2025",
     readTime: "8 min read",
-    imagePath: "banking-tech"
+    imagePath: "banking-tech",
+    source: "blog",
+    link: "#"
+  }
+];
+
+// LinkedIn posts data
+export const linkedinPosts = [
+  {
+    title: "Designing Human-Centric Banking Solutions",
+    excerpt: "Today, I'm reflecting on the importance of human-centered design in banking. Having worked with financial institutions across 50+ countries, I've observed that technology implementations succeed most when they focus on enhancing human experience rather than just technical capabilities.",
+    date: "April 18, 2025",
+    readTime: "3 min read",
+    imagePath: "design-thinking",
+    source: "linkedin",
+    link: "https://linkedin.com/in/madhavdabke"
+  },
+  {
+    title: "Mentoring at IIT Bombay E-Cell: The Journey Continues",
+    excerpt: "Excited to share that I'm continuing my mentoring journey with the brilliant young entrepreneurs at IIT Bombay's E-Cell. In today's session, we discussed the importance of a solid business model canvas and customer value proposition.",
+    date: "March 15, 2025",
+    readTime: "2 min read",
+    imagePath: "mentoring",
+    source: "linkedin",
+    link: "https://linkedin.com/in/madhavdabke"
+  },
+  {
+    title: "Project BINDU: Technology for Visually Impaired",
+    excerpt: "Honored to be an independent advisor for Project BINDU, an initiative creating technology-enabled lifestyle assistance for visually impaired individuals. Technology should be inclusive and accessible to all.",
+    date: "February 28, 2025", 
+    readTime: "4 min read",
+    imagePath: "global-business",
+    source: "linkedin",
+    link: "https://linkedin.com/in/madhavdabke"
   }
 ];
 

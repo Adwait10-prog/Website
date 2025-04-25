@@ -1,73 +1,104 @@
 // Skills data
 export const skills = [
-  { name: "Finance", color: "primary" },
-  { name: "Banking", color: "secondary" },
-  { name: "Business Consulting", color: "accent" },
-  { name: "Technology", color: "primary" },
-  { name: "Design Thinking", color: "secondary" },
-  { name: "Mentoring", color: "accent" },
-  { name: "Global Business", color: "primary" },
-  { name: "Strategic Planning", color: "secondary" },
-  { name: "Leadership", color: "accent" }
+  { name: "Team Management", color: "primary" },
+  { name: "Business Model Canvas", color: "secondary" },
+  { name: "Customer Value Proposition", color: "accent" },
+  { name: "Client Relations", color: "primary" },
+  { name: "Mentoring", color: "secondary" },
+  { name: "Organizational Development", color: "accent" },
+  { name: "Design Thinking", color: "primary" },
+  { name: "Pitching Ideas", color: "secondary" },
+  { name: "Business Strategy", color: "accent" },
+  { name: "Business Relationship Management", color: "primary" },
+  { name: "Banking & Finance", color: "secondary" },
+  { name: "Digital Transformation", color: "accent" }
 ];
 
 // Experience timeline data based on LinkedIn profile
 export const experiences = [
   {
+    date: "Aug 2024 - Present",
+    title: "Co-Founder",
+    company: "TechTalks",
+    description: "Developing a platform for enhancing employee-centric, actionable learning contents for bank employees.",
+    color: "primary"
+  },
+  {
+    date: "Jan 2020 - Present",
+    title: "Board Member, Innovation Director and Mentor",
+    company: "Garje Marathi Global",
+    description: "Managing not-for-profit GMG Global Innovation Academy. Mentoring start-ups and young minds to develop the entrepreneurial culture.",
+    color: "secondary"
+  },
+  {
+    date: "Mar 2024 - Present",
+    title: "Independent Advisor",
+    company: "Optimum Data Analytics",
+    description: "Independent advisor and mentor for social initiative named BINDU, which aims at creating technology-enabled lifestyle assistance to visually impaired members of society.",
+    color: "accent"
+  },
+  {
+    date: "Oct 2022 - Present",
+    title: "Mentor",
+    company: "E-Cell, IIT Bombay",
+    description: "Helping students in their entrepreneurship journey and business development skills.",
+    color: "primary"
+  },
+  {
     date: "2021 - Present",
-    title: "Team Member",
-    company: "Global Transformation",
-    description: "Conducting audits for the Financial Integrity Assessment, providing recommendations for best practices in corporate and national governance.",
-    color: "primary"
-  },
-  {
-    date: "2020 - Present",
-    title: "Managing Partner",
-    company: "FinBizInnovate Advisories",
-    description: "Providing strategic leadership, mentoring entrepreneurs, and designing human-centric business solutions for financial and technology sectors.",
+    title: "Mentor of Change",
+    company: "Atal Innovation Mission, NITI Aayog",
+    description: "Working with young generation to help them develop design mindset, foster curiosity, creativity, and prepare them with entrepreneurial skills to contribute to Government of India's vision for New India.",
     color: "secondary"
   },
   {
-    date: "2015 - 2020",
-    title: "Principal Consultant",
-    company: "Oracle Corp",
-    description: "Led consulting teams for global banking and financial services clients, implementing transformative solutions across multiple countries.",
+    date: "Aug 2021 - Present",
+    title: "Mentor",
+    company: "Symbiosis Technology Business Incubator (SCEI)",
+    description: "Helping young minds and new entrepreneurs understand human approach to designs, teaching them how to empathize with customers and build human-centered solutions.",
     color: "accent"
   },
   {
-    date: "2011 - 2015",
-    title: "Director of Strategy",
-    company: "Oracle Financial Services",
-    description: "Spearheaded strategic initiatives for financial technology transformation, leading global teams for solution implementation.",
+    date: "Aug 2023 - Aug 2024",
+    title: "BIAN Adoption Working Group Member",
+    company: "BIAN Services GmbH",
+    description: "Member of working group focusing on AF and F Adoption (B.I.A.N.) in banking and financial industry.",
     color: "primary"
   },
   {
-    date: "2006 - 2011",
-    title: "Senior Manager",
-    company: "i-flex Solutions / Oracle Financial Services",
-    description: "Managed development of innovative banking solutions and financial technology platforms for global clients.",
+    date: "Nov 2022 - Jul 2024",
+    title: "Vice President and Head - BFSI Products",
+    company: "SunTec Business Solutions",
+    description: "Responsible for defining the product vision and strategy to meet the needs of the banking and financial services industry globally.",
     color: "secondary"
   },
   {
-    date: "2005 - 2006",
-    title: "Product Manager",
-    company: "i-flex Solutions",
-    description: "Led product management for banking solution suite, defining roadmaps and working with clients to understand needs.",
+    date: "Jan 2019 - Dec 2022",
+    title: "Delivery Leader, Europe",
+    company: "Infosys",
+    description: "Delivering automations and innovations for multi-country clients. Managing SAP S/4 Hana and ECC Projects, Annuity Business and Template engagements for leading manufacturing and banking clients in Europe and NAM.",
     color: "accent"
   },
   {
-    date: "2002 - 2005",
-    title: "Functional Consultant",
-    company: "i-flex Solutions",
-    description: "Provided functional consulting for core banking implementations, specializing in retail banking modules.",
+    date: "Nov 2016 - Sep 2019",
+    title: "Regional Delivery Manager - Europe and North Americas",
+    company: "Infosys",
+    description: "Core Banking Transformation and Implementation Consultant with expertise in Digital and User Experience based solution designs. Managed multi-country large clients across Europe, Pan Africa, South Americas, Asia and other regions.",
     color: "primary"
   },
   {
-    date: "1999 - 2002",
-    title: "Team Lead",
-    company: "Nucleus Software",
-    description: "Led implementation teams for banking software solutions, focusing on lending and retail banking applications.",
+    date: "Oct 2016 - Apr 2018",
+    title: "Industry Principal - Legacy Modernization Program Manager",
+    company: "Infosys",
+    description: "Managed Legacy Modernization for one of the largest banks in Europe, delivering the program across 10 countries within budget constraints due to Brexit funding limitations.",
     color: "secondary"
+  },
+  {
+    date: "Sep 2014 - Nov 2016",
+    title: "Industry Principal - Finacle Core Banking",
+    company: "Infosys",
+    description: "Core Banking Transformation Implementation Consultant. Managed Africa and Middle East Region, leading business consulting and solution ownership for core banking implementations.",
+    color: "accent"
   }
 ];
 

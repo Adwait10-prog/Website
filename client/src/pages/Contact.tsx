@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Mail, MapPin, Linkedin, GitPullRequest, Twitter, Instagram } from "lucide-react";
+import { Mail, MapPin, Linkedin, Facebook, Twitter, Globe, HandHeart } from "lucide-react";
 import { z } from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -58,7 +58,7 @@ const Contact = () => {
           <h2 className="text-3xl md:text-4xl font-bold font-accent text-gray-800 dark:text-white">Get In Touch</h2>
           <div className="w-20 h-1 bg-primary mx-auto mt-4 mb-8 rounded-full"></div>
           <p className="max-w-2xl mx-auto text-gray-600 dark:text-gray-300">
-            Have a question or want to work together? Feel free to reach out!
+            Your comments and suggestions make my thoughts even clearer, better. Feel free to reach out!
           </p>
         </motion.div>
 
@@ -71,7 +71,7 @@ const Contact = () => {
           >
             <h3 className="text-2xl font-bold text-gray-800 dark:text-white">Contact Information</h3>
             <p className="text-gray-600 dark:text-gray-300">
-              I'm currently available for freelance work and full-time positions. If you have a project that needs some creative touch, I'd love to hear about it!
+              I'm available for business consulting, mentoring, and speaking engagements. If you're interested in discussing opportunities for collaboration, I welcome your message.
             </p>
             
             <div className="space-y-4">
@@ -82,18 +82,18 @@ const Contact = () => {
                 <div>
                   <h4 className="font-medium text-gray-800 dark:text-white">Email</h4>
                   <a href="mailto:hello@madhavdabke.com" className="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-blue-400 transition-colors">
-                    hello@madhavdabke.com
+                    contact@madhavdabke.com
                   </a>
                 </div>
               </div>
               
               <div className="flex items-start">
                 <div className="p-2 bg-blue-50 dark:bg-blue-900/30 rounded-lg text-primary dark:text-blue-400 mr-4">
-                  <MapPin className="w-6 h-6" />
+                  <Globe className="w-6 h-6" />
                 </div>
                 <div>
-                  <h4 className="font-medium text-gray-800 dark:text-white">Location</h4>
-                  <p className="text-gray-600 dark:text-gray-300">San Francisco, California</p>
+                  <h4 className="font-medium text-gray-800 dark:text-white">Global Consultant</h4>
+                  <p className="text-gray-600 dark:text-gray-300">Working with clients across 50+ countries</p>
                 </div>
               </div>
               
@@ -103,9 +103,21 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-medium text-gray-800 dark:text-white">LinkedIn</h4>
-                  <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-blue-400 transition-colors">
+                  <a href="https://linkedin.com/in/madhavdabke" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-blue-400 transition-colors">
                     linkedin.com/in/madhavdabke
                   </a>
+                </div>
+              </div>
+              
+              <div className="flex items-start">
+                <div className="p-2 bg-blue-50 dark:bg-blue-900/30 rounded-lg text-primary dark:text-blue-400 mr-4">
+                  <HandHeart className="w-6 h-6" />
+                </div>
+                <div>
+                  <h4 className="font-medium text-gray-800 dark:text-white">Mentorship</h4>
+                  <p className="text-gray-600 dark:text-gray-300">
+                    Open to mentoring and contributing to educational initiatives
+                  </p>
                 </div>
               </div>
             </div>
@@ -114,12 +126,14 @@ const Contact = () => {
               <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">Connect</h3>
               <div className="flex space-x-4">
                 <motion.a 
-                  href="#" 
+                  href="https://linkedin.com/in/madhavdabke" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
                   className="p-3 bg-gray-100 dark:bg-gray-800 hover:bg-primary hover:text-white dark:hover:bg-blue-500 rounded-full text-gray-600 dark:text-gray-300 transition-colors"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                 >
-                  <GitPullRequest className="w-5 h-5" />
+                  <Linkedin className="w-5 h-5" />
                 </motion.a>
                 <motion.a 
                   href="#" 
@@ -135,7 +149,7 @@ const Contact = () => {
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                 >
-                  <Linkedin className="w-5 h-5" />
+                  <Facebook className="w-5 h-5" />
                 </motion.a>
                 <motion.a 
                   href="#" 
@@ -143,7 +157,7 @@ const Contact = () => {
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                 >
-                  <Instagram className="w-5 h-5" />
+                  <Globe className="w-5 h-5" />
                 </motion.a>
               </div>
             </div>

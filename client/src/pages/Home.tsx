@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
 import { Link } from "wouter";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Linkedin, Facebook, Twitter } from "lucide-react";
 import { useTypingEffect } from "@/hooks/useTypingEffect";
 
 const Home = () => {
   const typedText = useTypingEffect([
-    "Developer.",
-    "Designer.",
-    "Problem Solver.",
-    "Tech Enthusiast."
+    "Finance Postgraduate.",
+    "Business Consultant.",
+    "Technology Consultant.",
+    "Global Traveler."
   ], 100, 1000);
 
   return (
@@ -21,8 +21,13 @@ const Home = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
           >
+            <div className="mb-4 p-4 bg-gray-50 dark:bg-gray-800 rounded-lg border-l-4 border-primary dark:border-blue-500 italic text-gray-700 dark:text-gray-300">
+              <p className="text-sm md:text-base">"The flight of imagination has no limit, except the one you wear on your own mind."</p>
+              <p className="text-xs md:text-sm mt-2 text-right">- Padma Vibhushan Dr. R.A. Mashelkar, FRS</p>
+            </div>
+            
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-accent text-gray-800 dark:text-white leading-tight">
-              Hello, I'm <span className="text-primary dark:text-blue-400">Madhav Dabke</span>
+              Namasté, I'm <span className="text-primary dark:text-blue-400">Mādhav Dabke</span>
             </h1>
             <div className="h-10">
               <span className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 font-medium">
@@ -30,8 +35,42 @@ const Home = () => {
               </span>
             </div>
             <p className="text-lg text-gray-600 dark:text-gray-300 max-w-lg">
-              I build exceptional digital experiences that are fast, accessible, visually appealing, and responsive.
+              I work in the corporate world for earning and associate myself with society for giving. With over 25 years of professional experience across 50+ countries.
             </p>
+            
+            <div className="flex gap-4 pt-2">
+              <motion.a 
+                href="https://linkedin.com/in/madhavdabke" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400"
+                whileHover={{ scale: 1.2 }}
+                whileTap={{ scale: 0.9 }}
+              >
+                <Linkedin size={20} />
+              </motion.a>
+              <motion.a 
+                href="#" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400"
+                whileHover={{ scale: 1.2 }}
+                whileTap={{ scale: 0.9 }}
+              >
+                <Facebook size={20} />
+              </motion.a>
+              <motion.a 
+                href="#" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400"
+                whileHover={{ scale: 1.2 }}
+                whileTap={{ scale: 0.9 }}
+              >
+                <Twitter size={20} />
+              </motion.a>
+            </div>
+            
             <div className="flex gap-4 pt-4">
               <Link href="/projects">
                 <motion.a 

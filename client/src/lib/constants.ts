@@ -1,110 +1,134 @@
 // Skills data
 export const skills = [
-  { name: "React.js", color: "primary" },
-  { name: "JavaScript", color: "secondary" },
-  { name: "TypeScript", color: "accent" },
-  { name: "Node.js", color: "primary" },
-  { name: "TailwindCSS", color: "secondary" },
-  { name: "UI/UX Design", color: "accent" }
+  { name: "Finance", color: "primary" },
+  { name: "Banking", color: "secondary" },
+  { name: "Business Consulting", color: "accent" },
+  { name: "Technology", color: "primary" },
+  { name: "Design Thinking", color: "secondary" },
+  { name: "Mentoring", color: "accent" },
+  { name: "Global Business", color: "primary" },
+  { name: "Strategic Planning", color: "secondary" },
+  { name: "Leadership", color: "accent" }
 ];
 
-// Experience timeline data
+// Experience timeline data based on LinkedIn profile
 export const experiences = [
   {
     date: "2021 - Present",
-    title: "Senior Frontend Developer",
-    company: "Tech Innovations Inc.",
-    description: "Led the frontend development team in building innovative web applications using React and Next.js.",
+    title: "Team Member",
+    company: "Global Transformation",
+    description: "Conducting audits for the Financial Integrity Assessment, providing recommendations for best practices.",
     color: "primary"
   },
   {
-    date: "2018 - 2021",
-    title: "Frontend Developer",
-    company: "WebSolutions Corp",
-    description: "Developed responsive web applications and implemented UI/UX designs for various clients.",
+    date: "2020 - Present",
+    title: "Managing Partner",
+    company: "FinBizInnovate Advisories",
+    description: "Providing strategic leadership, mentoring entrepreneurs, and designing human-centric business solutions.",
     color: "secondary"
   },
   {
-    date: "2016 - 2018",
-    title: "UI/UX Designer",
-    company: "DesignMasters Studio",
-    description: "Created user interfaces and experiences for web and mobile applications, focusing on usability and aesthetics.",
+    date: "2015 - 2020",
+    title: "Principal Consultant",
+    company: "Oracle Corp",
+    description: "Led consulting teams for global banking and financial services clients, implementing transformative solutions.",
     color: "accent"
+  },
+  {
+    date: "2011 - 2015",
+    title: "Director of Strategy",
+    company: "I-Flex Solutions/Oracle Financial Services",
+    description: "Spearheaded strategic initiatives for financial technology transformation across multiple countries.",
+    color: "primary"
+  },
+  {
+    date: "2007 - 2011",
+    title: "Senior Manager",
+    company: "Banking Solutions Development",
+    description: "Managed development of innovative banking solutions and financial technology platforms.",
+    color: "secondary"
   }
 ];
 
 // Blog posts data
 export const blogPosts = [
   {
-    title: "React Performance Optimization Techniques",
-    excerpt: "Learn advanced techniques to optimize your React applications for better performance and user experience.",
-    date: "May 15, 2023",
-    readTime: "5 min read",
-    imagePath: "code-optimization"
-  },
-  {
-    title: "Modern CSS Techniques Every Developer Should Know",
-    excerpt: "Explore the latest CSS features and techniques that will transform how you approach web styling.",
-    date: "April 2, 2023",
+    title: "Design Thinking in Financial Services",
+    excerpt: "How human-centered design approaches can transform financial services and enhance customer experiences in banking.",
+    date: "April 10, 2025",
     readTime: "7 min read",
-    imagePath: "css-techniques"
+    imagePath: "design-thinking"
   },
   {
-    title: "TypeScript Best Practices in 2023",
-    excerpt: "A comprehensive guide to writing better, more maintainable TypeScript code with modern best practices.",
-    date: "March 18, 2023",
+    title: "Global Business Consulting: Lessons from 50+ Countries",
+    excerpt: "Key insights and cultural considerations for business consultants working across international boundaries.",
+    date: "March 22, 2025",
+    readTime: "9 min read",
+    imagePath: "global-business"
+  },
+  {
+    title: "Mentoring Young Entrepreneurs: A Guide for Seasoned Professionals",
+    excerpt: "Practical approaches to effective mentorship and nurturing the next generation of business leaders.",
+    date: "February 15, 2025",
     readTime: "6 min read",
-    imagePath: "typescript-code"
+    imagePath: "mentoring"
+  },
+  {
+    title: "Banking Technology Transformation: Past, Present, and Future",
+    excerpt: "A retrospective look at 25 years of banking technology evolution and predictions for where the industry is headed.",
+    date: "January 30, 2025",
+    readTime: "8 min read",
+    imagePath: "banking-tech"
   }
 ];
 
 // Projects data
 export const projects = [
   {
-    title: "E-commerce Dashboard",
-    description: "A comprehensive dashboard for e-commerce store owners with real-time analytics, inventory management, and customer insights.",
+    title: "Global Financial Integrity Framework",
+    description: "A comprehensive framework for assessing and enhancing financial integrity in banking institutions worldwide, focusing on best practices and regulatory compliance.",
     technologies: [
-      { name: "React", color: "blue" }, 
-      { name: "Node.js", color: "green" }, 
-      { name: "MongoDB", color: "purple" }
+      { name: "Banking", color: "blue" }, 
+      { name: "Finance", color: "green" }, 
+      { name: "Compliance", color: "purple" }
     ],
-    imagePath: "ecommerce-dashboard",
+    imagePath: "financial-integrity",
     githubUrl: "#",
     liveUrl: "#"
   },
   {
-    title: "Fitness Tracker App",
-    description: "A mobile application that helps users track workouts, set fitness goals, and monitor their progress over time.",
+    title: "Entrepreneur Mentorship Program",
+    description: "A structured mentorship program designed to guide early-stage entrepreneurs through business development, including financial planning, market strategy, and scaling operations.",
     technologies: [
-      { name: "React Native", color: "blue" }, 
-      { name: "Firebase", color: "green" }, 
-      { name: "Redux", color: "yellow" }
+      { name: "Mentoring", color: "blue" }, 
+      { name: "Business", color: "green" }, 
+      { name: "Leadership", color: "yellow" }
     ],
-    imagePath: "fitness-tracker",
+    imagePath: "mentorship-program",
     githubUrl: "#",
     liveUrl: "#"
   },
   {
-    title: "Portfolio Website Template",
-    description: "A customizable portfolio website template for developers and designers with smooth animations and a modern design.",
+    title: "Banking Technology Transformation",
+    description: "Strategic technological transformation initiatives for banking institutions, focusing on modernizing core systems while maintaining operational continuity and enhancing customer experience.",
     technologies: [
-      { name: "Next.js", color: "blue" }, 
-      { name: "TailwindCSS", color: "pink" }, 
-      { name: "Framer Motion", color: "gray" }
+      { name: "Technology", color: "blue" }, 
+      { name: "Banking", color: "pink" }, 
+      { name: "Digital", color: "gray" }
     ],
-    imagePath: "portfolio-template",
+    imagePath: "banking-tech",
     githubUrl: "#",
     liveUrl: "#"
   },
   {
-    title: "Recipe Sharing Platform",
-    description: "A platform for food enthusiasts to discover, share, and save recipes with features like ratings, comments, and personalized recommendations.",
+    title: "Design Thinking Workshop Series",
+    description: "A series of workshops teaching human-centered design principles to business professionals, focusing on practical applications in financial services and technology sectors.",
     technologies: [
-      { name: "Vue.js", color: "blue" }, 
-      { name: "Express", color: "green" }, 
-      { name: "PostgreSQL", color: "red" }
+      { name: "Design", color: "blue" }, 
+      { name: "Innovation", color: "green" }, 
+      { name: "Education", color: "red" }
     ],
-    imagePath: "recipe-platform",
+    imagePath: "design-workshop",
     githubUrl: "#",
     liveUrl: "#"
   }

@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { ChevronDown, Linkedin, Facebook, Twitter } from "lucide-react";
 import { useTypingEffect } from "@/hooks/useTypingEffect";
+import madhavProfile from "@/assets/images/madhav-profile.png";
 
 const Home = () => {
   const typedText = useTypingEffect([
@@ -102,9 +103,11 @@ const Home = () => {
             <div className="relative">
               <div className="absolute -inset-1 bg-gradient-to-r from-primary to-accent rounded-full blur opacity-30 dark:opacity-50"></div>
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-xl">
-                <svg className="w-full h-full text-gray-300 dark:text-gray-700" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M24 20.993V24H0v-2.996A14.977 14.977 0 0112.004 15c4.904 0 9.26 2.354 11.996 5.993zM16.002 8.999a4 4 0 11-8 0 4 4 0 018 0z" />
-                </svg>
+                <img 
+                  src={madhavProfile} 
+                  alt="Madhav Dabke" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </motion.div>

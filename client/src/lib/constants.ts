@@ -17,35 +17,56 @@ export const experiences = [
     date: "2021 - Present",
     title: "Team Member",
     company: "Global Transformation",
-    description: "Conducting audits for the Financial Integrity Assessment, providing recommendations for best practices.",
+    description: "Conducting audits for the Financial Integrity Assessment, providing recommendations for best practices in corporate and national governance.",
     color: "primary"
   },
   {
     date: "2020 - Present",
     title: "Managing Partner",
     company: "FinBizInnovate Advisories",
-    description: "Providing strategic leadership, mentoring entrepreneurs, and designing human-centric business solutions.",
+    description: "Providing strategic leadership, mentoring entrepreneurs, and designing human-centric business solutions for financial and technology sectors.",
     color: "secondary"
   },
   {
     date: "2015 - 2020",
     title: "Principal Consultant",
     company: "Oracle Corp",
-    description: "Led consulting teams for global banking and financial services clients, implementing transformative solutions.",
+    description: "Led consulting teams for global banking and financial services clients, implementing transformative solutions across multiple countries.",
     color: "accent"
   },
   {
     date: "2011 - 2015",
     title: "Director of Strategy",
-    company: "I-Flex Solutions/Oracle Financial Services",
-    description: "Spearheaded strategic initiatives for financial technology transformation across multiple countries.",
+    company: "Oracle Financial Services",
+    description: "Spearheaded strategic initiatives for financial technology transformation, leading global teams for solution implementation.",
     color: "primary"
   },
   {
-    date: "2007 - 2011",
+    date: "2006 - 2011",
     title: "Senior Manager",
-    company: "Banking Solutions Development",
-    description: "Managed development of innovative banking solutions and financial technology platforms.",
+    company: "i-flex Solutions / Oracle Financial Services",
+    description: "Managed development of innovative banking solutions and financial technology platforms for global clients.",
+    color: "secondary"
+  },
+  {
+    date: "2005 - 2006",
+    title: "Product Manager",
+    company: "i-flex Solutions",
+    description: "Led product management for banking solution suite, defining roadmaps and working with clients to understand needs.",
+    color: "accent"
+  },
+  {
+    date: "2002 - 2005",
+    title: "Functional Consultant",
+    company: "i-flex Solutions",
+    description: "Provided functional consulting for core banking implementations, specializing in retail banking modules.",
+    color: "primary"
+  },
+  {
+    date: "1999 - 2002",
+    title: "Team Lead",
+    company: "Nucleus Software",
+    description: "Led implementation teams for banking software solutions, focusing on lending and retail banking applications.",
     color: "secondary"
   }
 ];

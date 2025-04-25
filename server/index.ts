@@ -56,15 +56,23 @@ app.use((req, res, next) => {
     serveStatic(app);
   }
 
-  // ALWAYS serve the app on port 5000
-  // this serves both the API and the client.
-  // It is the only port that is not firewalled.
-  const port = 5000;
-  server.listen({
-    port,
-    host: "0.0.0.0",
-    reusePort: true,
-  }, () => {
-    log(`serving on port ${port}`);
-  });
+  // Determine port for local development or Replit environment
+  const port = process.env.PORT || (process.env.REPL_ID ? 5000 : 3000);
+  
+  // For Replit, use 0.0.0.0 and port 5000
+  // For local development, use default host and port 3000
+  if (process.env.REPL_ID) {
+    server.listen({
+      port,
+      host: "0.0.0.0",
+      reusePort: true,
+    }, () => {
+      log(`serving on port ${port}`);
+    });
+  } else {
+    // Local development setup without options that might not be supported
+    server.listen(port, () => {
+      log(`serving on port ${port}`);
+    });
+  }
 })();

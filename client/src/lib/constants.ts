@@ -102,6 +102,9 @@ export const experiences = [
   }
 ];
 
+// Define post types for type safety
+type PostSource = "blog" | "linkedin";
+
 // Blog posts data
 export const blogPosts = [
   {
@@ -110,7 +113,7 @@ export const blogPosts = [
     date: "April 10, 2025",
     readTime: "7 min read",
     imagePath: "design-thinking",
-    source: "blog",
+    source: "blog" as PostSource,
     link: "#"
   },
   {
